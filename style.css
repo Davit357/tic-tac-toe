@@ -1,0 +1,33 @@
+* {
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    width:302px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width:100px;
+    height:100px;
+    background-color: black;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+button {
+    width:100px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
